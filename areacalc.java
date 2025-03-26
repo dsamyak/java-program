@@ -7,7 +7,7 @@ public class areacalc {
 
      double area(float len,float breadth)
      {
-        double rectangle=len*breadth;
+        double rectangle=len*breadth;     
         return rectangle;
      }
 
