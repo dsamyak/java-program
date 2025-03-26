@@ -5,13 +5,13 @@ public class DataStructureDemo {
     public static void main(String[] args) {
       
         Vector<String> names = new Vector<>();
-        names.add("bhushan");
+        names.add("Samyak");
         names.add("saurabh");
-       names.add("sahil");
+       names.add("Rajveer");
         System.out.println("Initial Vector: " + names);
 
-        names.add("sahil");
-        names.remove("satyam");
+        names.add("Sahil");
+        names.remove("sumedh");
         System.out.println("Updated Vector: " + names);
 
         if (names.contains("bhushan")) {
@@ -19,7 +19,7 @@ public class DataStructureDemo {
         }
         Collections.sort(names);
         System.out.println("Sorted Vector: " + names);
-
+ 
         ArrayList<Integer> numbers = new ArrayList<>();
 
         numbers.add(1);
@@ -41,13 +41,13 @@ public class DataStructureDemo {
         HashMap<String, Integer> studentMarks = new HashMap<>();
         studentMarks.put("saurabh", 90);
 
-        studentMarks.put("swayam", 89);
+        studentMarks.put("Rajveer", 89);
 
-        studentMarks.put("bhushan", 92);
+        studentMarks.put("Samyak", 92);
 
       
         studentMarks.put("sahil", 88);
-        studentMarks.remove("bhushan");
+        studentMarks.remove("Sahil");
         System.out.println("Updated HashMap: " + studentMarks);
 
         String searchName = "saurabh";
