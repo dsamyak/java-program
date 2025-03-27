@@ -2,6 +2,7 @@
 and year that uses constructor. Accept the input values from the user and keep count of number of 
 objects created using static variable.
  */
+//practical no 7
 import java.util.*;
 public class student
 {

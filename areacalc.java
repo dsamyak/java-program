@@ -1,3 +1,4 @@
+//practical n0. 6
 public class areacalc {
      double area(float radius)
      {
