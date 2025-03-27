@@ -1,3 +1,4 @@
+//practical no 11 
 import java.util.*;
 
 public class DataStructureDemo {
