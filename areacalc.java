@@ -6,7 +6,7 @@ public class areacalc {
         return circle;
      }
 
-     double area(float len,float breadth)
+     double area(double  len, double breadth)
      {
         double rectangle=len*breadth;     
         return rectangle;
@@ -22,7 +22,7 @@ public class areacalc {
          System.out.println("Area of Circle:"+cir);
 
          double rec;
-         rec= obj1.area(3.0f, 8.0f);
+         rec= obj1.area(3.0d, 8.0d);
          System.out.println("Area of rectangle:"+rec);
 
          
