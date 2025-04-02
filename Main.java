@@ -42,6 +42,7 @@ class Clothing extends Product implements Discountable {
 
 public class Main {
     public static void main(String[] args) {
+        
         Product[] products = {
             new Electronics("Laptop", 1200, "Dell"),
             new Books("The Great Gatsby", 15, "F. Scott Fitzgerald"),
