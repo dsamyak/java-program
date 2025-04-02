@@ -1,3 +1,4 @@
+//pravtical no.14
 abstract class Product {
     protected String name;
     public Product(String name) { this.name = name; }
