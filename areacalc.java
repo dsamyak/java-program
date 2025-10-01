@@ -18,7 +18,8 @@ public class areacalc {
          areacalc obj2=new areacalc();
 
          double cir;
-         cir= obj1.area(5.0f);
+         cir= obj1.area(5.0f);//calling function
+         
          System.out.println("Area of Circle:"+cir);
 
          double rec;
